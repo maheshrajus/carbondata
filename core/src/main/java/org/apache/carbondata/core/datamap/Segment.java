@@ -124,6 +124,10 @@ public class Segment implements Serializable, Writable {
     this.options = options;
   }
 
+  public void setSegmentFileName(String segmentFileName) {
+    this.segmentFileName = segmentFileName;
+  }
+
   /**
    *
    * @param segmentNo
